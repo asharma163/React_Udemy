@@ -26,7 +26,7 @@ It is possible to write React without JSX but that is a lot tedious and ugly.
 Props help make a component re-usable with different values.
 Props are immutable.
 
-arrays.map(whatever => {expression}
+arrays.map(whatever => {expression})
 
 ### Default Props
 syntax => 
