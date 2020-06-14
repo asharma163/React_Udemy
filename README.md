@@ -15,3 +15,10 @@ Components are building blocks of React. These let split UI into independent pie
 Class component is the traditonal way to write component. Previously functional components were considered *"dumb"* components.
 
 ## Section2 Notes
+JSX - JavaScript + XML / JavaScript Syntax Extension - in general more *strict* than HTML
+
+Combine UI with logic in JS file
+
+It is possible to write React without JSX but that is a lot tedious and ugly.
+
+
