@@ -11,3 +11,7 @@ On itself, React is not a framework, when making a scalable application other Re
 
 
 Components are building blocks of React. These let split UI into independent pieces and each component works in isolation.
+
+Class component is the traditonal way to write component. Previously functional components were considered *"dumb"* components.
+
+## Section2 Notes
