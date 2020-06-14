@@ -26,7 +26,7 @@ It is possible to write React without JSX but that is a lot tedious and ugly.
 Props help make a component re-usable with different values.
 Props are immutable.
 
-arrays.map(whatever => <markup>{expression}</markup>
+arrays.map(whatever => {expression}
 
 ### Default Props
 syntax => 
@@ -34,4 +34,4 @@ syntax =>
             from: "whatever"
         }
 
-so whenever the from field is used but not passed as a prop, the default prop value gets interpolated.
+So, whenever the from field is used but not passed as a prop, the default prop value gets interpolated.
