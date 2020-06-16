@@ -1,0 +1,2 @@
+import helpful from './helper';
+helpful(); // this is basically the name specified after the word import, it can be anything in this case. If we do not have a deafult export naymore, we cannot use helpul as done on line 1.
