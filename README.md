@@ -40,5 +40,3 @@ So, whenever the from field is used but not passed as a prop, the default prop v
 
 ### Create React App
 `npx create-react-app your-name` remember to be in the directory to do `npm start`, basically to start the local host.
-
-ES2015 Modules
