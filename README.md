@@ -40,3 +40,15 @@ So, whenever the from field is used but not passed as a prop, the default prop v
 
 ### Create React App
 `npx create-react-app your-name` remember to be in the directory to do `npm start`, basically to start the local host.
+
+#### Conventions to follow for CRA
+* Kepp the separate components in separate files.
+* Name of file should match Class name. Capitalized is the convention.
+* Each component should be exported as the default object from the file.
+* Keep the top level or entry point as App component.
+
+#### CSS and Assets
+* Call css as the same as component name.
+* CRA will automatically load the CSS
+* Conventional to give the dive className of the Component.
+* Another convention is naming `componentName-property` eg-> className = 'House-address' where House is the component and address is the property.
