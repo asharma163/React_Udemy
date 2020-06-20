@@ -50,5 +50,5 @@ So, whenever the from field is used but not passed as a prop, the default prop v
 #### CSS and Assets
 * Call css as the same as component name.
 * CRA will automatically load the CSS
-* Conventional to give the dive className of the Component.
+* Conventional to give the div className of the Component.
 * Another convention is naming `componentName-property` eg-> className = 'House-address' where House is the component and address is the property.
