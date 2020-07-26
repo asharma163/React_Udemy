@@ -64,4 +64,4 @@ Initial state always set in the constructor.
 If you have to access the props inside the constructor, use super(props) else just super(). Ideally super(props) is used as it does no harm.
 
 Never manipulate the state directly as in `this.state.whatever = newVal;` else use this.setState() built-in react method. Call this elsewhere but the constructor.
-setState() is more like requesting that giving a command for a chanr,  React may re-render one / multiple components which have changed depending on when it is suitable.
+setState() is more like requesting that giving a command for a change,  React may re-render one / multiple components which have changed depending on when it is suitable.
