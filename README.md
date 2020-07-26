@@ -70,3 +70,6 @@ All the instance methods should be called with this keyword as in `this.methodNa
 
 Also rememeber to bind the instance methods. In the constructor have the following line of code.
 `this.methodName = this.methodName.bind(this)`
+
+### State As Props
+State is mutable but props are not.
