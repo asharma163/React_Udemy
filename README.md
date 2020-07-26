@@ -52,3 +52,16 @@ So, whenever the from field is used but not passed as a prop, the default prop v
 * CRA will automatically load the CSS
 * Conventional to give the div className of the Component.
 * Another convention is naming `componentName-property` eg-> className = 'House-address' where House is the component and address is the property.
+
+## Section6 Notes
+
+#### State
+Make website interactive, anything that changes on a website is associated to state.
+Initial state always set in the constructor.
+
+* super() VS super(props)
+
+If you have to access the props inside the constructor, use super(props) else just super(). Ideally super(props) is used as it does no harm.
+
+Never manipulate the state directly as in `this.state.whatever = newVal;` else use this.setState() built-in react method. Call this elsewhere but the constructor.
+setState() is more like requesting that giving a command for a chanr,  React may re-render one / multiple components which have changed depending on when it is suitable.
