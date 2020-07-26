@@ -65,3 +65,8 @@ If you have to access the props inside the constructor, use super(props) else ju
 
 Never manipulate the state directly as in `this.state.whatever = newVal;` else use this.setState() built-in react method. Call this elsewhere but the constructor.
 setState() is more like requesting that giving a command for a change,  React may re-render one / multiple components which have changed depending on when it is suitable.
+
+All the instance methods should be called with this keyword as in `this.methodName`
+
+Also rememeber to bind the instance methods. In the constructor have the following line of code.
+`this.methodName = this.methodName.bind(this)`
