@@ -73,3 +73,6 @@ Also rememeber to bind the instance methods. In the constructor have the followi
 
 ### State As Props
 State is mutable but props are not.
+
+## React State Patterns
+If there is some logic running that is dependent on the current state, ideal scenario is to use callbacks with setState For Example => `this.setState(currentState => {return {var : currentState.var + whatever}})`
