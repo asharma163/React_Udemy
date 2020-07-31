@@ -76,3 +76,9 @@ State is mutable but props are not.
 
 ## React State Patterns
 If there is some logic running that is dependent on the current state, ideal scenario is to use callbacks with setState For Example => `this.setState(currentState => {return {var : currentState.var + whatever}})`
+
+Also, we can pass functions as callbacks to the setState functions.
+
+Try to minimize your state. Try to put as little data as possible in state. Think if "x" changes? If yes make it part of state else make it a prop.
+
+Downward Data Flow - Parent component should manage state.
